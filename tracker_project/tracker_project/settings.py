@@ -151,12 +151,15 @@ REST_FRAMEWORK = {
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #ALLOWED_HOSTS = ['ldx-lasttool-1745873676978.cluster-6f8fni143u5bcu52z3ivebzpii.cloudworkstations.dev', '127.0.0.1']
 #ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-idx-lasttool-1745073676976.cluster-6frnii43o5blcu522sivebzpii.cloudworkstations.dev',
+]
 
 # CORS settings
 #CORS_ALLOWED_ORIGINS = [
     
-#    "http://localhost:3000",
-#    "http://127.0.0.1:3000",
+#   "http://localhost:3000",
+ #   "http://127.0.0.1:3000",
 #]
 CORS_ALLOW_CREDENTIALS = True
 
